@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1000.0" spacing="10.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="203.0" fitWidth="294.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@centenario-stadium.PNG" />
+               </image>
+            </ImageView>
+            <Label text="Centenario Stadium" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@atanasio-girardot-stadium.PNG" />
+               </image>
+            </ImageView>
+            <Label text="Atanasio Girardot Stadium" />
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
+               <children>
+                  <ImageView fitHeight="137.0" fitWidth="257.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@olimpico-monumental-stadium.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label text="Olimpico Monumental Stadium" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="168.0" fitWidth="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@arena-do-gremio-stadium.PNG" />
+               </image>
+            </ImageView>
+            <Label text="Arena do Grêmio Stadium" />
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
+               <children>
+                  <ImageView fitHeight="173.0" fitWidth="264.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ciudad-de-lanus-stadium.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label text="Ciudad de Lanus Stadium" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets left="10.0" right="10.0" />
+   </padding>
+</HBox>
