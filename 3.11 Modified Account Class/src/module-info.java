@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author João
- *
- */
-module modifiedAccountClass {
-}

@@ -3,10 +3,11 @@ public class ClockTest {
         
         Clock clock1 = new Clock(6,23,45);
         Clock clock2 = new Clock(7,59,12);
-        Clock clock2 = new Clock(7,60,60);
+        Clock clock3 = new Clock(7,60,60);
 
         System.out.println("Display time in format hh:mm:ss");
         clock1.displayTime();
         clock2.displayTime();
+        clock3.displayTime();
     }
 }
